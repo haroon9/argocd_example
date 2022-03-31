@@ -64,7 +64,7 @@ argocd version
 
 ## Login using argocd-cli
 ```
-argocd login localhost:30443 --insecure
+argocd login localhost:port --insecure
 ```
 Enter the ``username`` default is admin and the ``password``.
 
