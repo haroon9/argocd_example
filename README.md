@@ -71,5 +71,9 @@ Enter the ``username`` default is admin and the ``password``.
 ## Create a project
 To create a project run the below command:
 ```
+argocd app create project_name \
+--repo repository_link
+--dest-server server_address \
+--dest-namespace namespace_name
 
 ```
