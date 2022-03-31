@@ -45,6 +45,11 @@ Using minikube
 minikube service argocd-server -n argocd
 ```
 
+or use kube port-forward
+```
+kubectl port-forward svc/argocd-server -n argocd 9090:443kubectl port-forward svc/argocd-server -n argocd 9090:443
+```
+
 ## Install argocd-cli
 To install argocd-cli run:
 ```
@@ -60,4 +65,11 @@ argocd version
 ## Login using argocd-cli
 ```
 argocd login localhost:30443 --insecure
+```
+Enter the ``username`` default is admin and the ``password``.
+
+## Create a project
+To create a project run the below command:
+```
+
 ```
