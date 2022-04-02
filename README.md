@@ -53,7 +53,8 @@ kubectl port-forward svc/argocd-server -n argocd 9090:443
 ## Install argocd-cli
 To install argocd-cli run:
 ```
-curl -sSL -o /usr/local/bin/argocd https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
+curl -sLO https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
+mv argocd-linux-amd64 /usr/local/bin/argocd
 chmod +x /usr/local/bin/argocd
 ```
 
