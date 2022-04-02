@@ -47,7 +47,7 @@ minikube service argocd-server -n argocd
 
 or use kube port-forward
 ```
-kubectl port-forward svc/argocd-server -n argocd 9090:443kubectl port-forward svc/argocd-server -n argocd 9090:443
+kubectl port-forward svc/argocd-server -n argocd 9090:443
 ```
 
 ## Install argocd-cli
